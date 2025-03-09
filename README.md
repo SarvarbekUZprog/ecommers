@@ -31,17 +31,16 @@ Follow these steps to set up the project locally:
    git clone https://github.com/SarvarbekUzProg/ecommers.git
    cd ecommers
    ```
-2. **Set up environment variables**:\n
-   Create a .env file in the root directory and add the following variables:
+2. **Set up environment variables .env**:
   ```bash
-     PORT = 3000
-     ACCESS_TOKEN_SECRET=MYSECRETACCESS
-     REFRESH_TOKEN_SECRET=MYREFRESHTOKENSECRET
-     EMAIL_HOST_USER = youremail@gmail.com
-     EMAIL_HOST_PASSWORD = yourEmailAppPassword
+   PORT = 3000
+   ACCESS_TOKEN_SECRET=MYSECRETACCESS
+   REFRESH_TOKEN_SECRET=MYREFRESHTOKENSECRET
+   EMAIL_HOST_USER = youremail@gmail.com
+   EMAIL_HOST_PASSWORD = yourEmailAppPassword
   ```
 3. **Run the server**:
    ```bash
-    npm start
+   npm start
    ```
   
